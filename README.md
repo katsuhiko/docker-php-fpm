@@ -1,6 +1,6 @@
 # docker-php-fpm-base
 
-I added the library I always use to php-fpm.
+I added the library I always use to php:7.2-fpm-stretch.
 
 The following libraries were added.
 
