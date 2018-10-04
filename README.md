@@ -8,4 +8,3 @@ The following libraries were added.
 - pdo_mysql
 - intl
 - gd
-
