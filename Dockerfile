@@ -1,10 +1,10 @@
-FROM php:7.2-fpm-stretch
+FROM php:7.4-fpm-buster
 
 LABEL maintainer="Katsuhiko Nagashima <katsuhiko.nagashima@gmail.com>"
 
 RUN apt-get update
 
-RUN apt-get install -y git zlib1g-dev zip unzip \
+RUN apt-get install -y git libzip-dev zip unzip \
     && docker-php-ext-install zip
 
 RUN docker-php-ext-install pdo_mysql
